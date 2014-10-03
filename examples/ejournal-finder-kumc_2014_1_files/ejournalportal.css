@@ -1,0 +1,226 @@
+<!DOCTYPE html><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<html lang="en">
+  <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Generator" content="VuFind 2.1">    <title></title>        <link href="/themes/bootstrap/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css">
+<link href="/themes/bootstrap/css/bootstrap-responsive.min.css" media="all" rel="stylesheet" type="text/css">
+<link href="/themes/bootstrap/css/font-awesome.css" media="all" rel="stylesheet" type="text/css">
+<link href="/themes/bootstrap/css/font-awesome-ie7.min.css" media="all" rel="stylesheet" type="text/css">
+<link href="/themes/bootstrap/css/slider.css" media="all" rel="stylesheet" type="text/css">
+<link href="/themes/bootstrap/css/screen.css" media="all" rel="stylesheet" type="text/css">
+<link href="/themes/bootstrap/css/print.css" media="print" rel="stylesheet" type="text/css">
+<link href="/themes/bootprint/css/icons.css" media="all" rel="stylesheet" type="text/css">
+<link href="/themes/kumc/css/style.css" media="all" rel="stylesheet" type="text/css">
+<link href="/themes/kumc/css/dykes.css" media="all" rel="stylesheet" type="text/css">
+<link href="/Search/OpenSearch?method=describe" rel="search" type="application/opensearchdescription+xml" title="Library Catalog Search">    <link rel="shortcut icon" href="https://www.kumc.edu/prebuilt/favicon.ico" />
+
+        <link rel="stylesheet" href="https://www.kumc.edu/prebuilt/css/style-kumc.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://www.kumc.edu/prebuilt/css/layout-kumc.css" type="text/css" media="all" />
+    <!--[if lt IE 9]>
+      <link rel="stylesheet" href="https://www.kumc.edu/prebuilt/css/ie-8.css" type="text/css" media="screen">  
+    <![endif]-->
+        <script type="text/javascript">
+    //<!--
+    path = '';
+    //-->
+</script>
+<script type="text/javascript" src="/themes/bootstrap/js/core/jquery.min.js"></script>
+<script type="text/javascript" src="/themes/bootstrap/js/core/bootstrap.min.js"></script>
+<script type="text/javascript" src="/themes/bootstrap/js/common.js"></script>
+<script type="text/javascript" src="/themes/bootstrap/js/lightbox.js"></script>
+<script type="text/javascript" src="/themes/bootstrap/js/rc4.js"></script>
+<script type="text/javascript" src="/themes/bootstrap/js/core/bootstrap.js"></script>
+<script type="text/javascript" src="/themes/kumc/js/jquery.collapser/jquery.collapser.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    vufindString = {loading: "Loading"};
+    //-->
+</script>  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div class="wrapper-for-content">
+          <div class="row" id="topnav">
+            <div class="col_12 last">
+              <p class="topleft"><a href="https://www.kumc.edu/">University of Kansas Medical Center</a></p>
+              <ul class="inline-list" id="top_main_nav">
+                <li><a href="https://library.kumc.edu/" title="Dykes Library Home Page">Dykes Library</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="wrapper-for-content">
+          <div class="row" id="header-container">
+            <div class="row" id="main-search">
+              <div class="col_12 last">
+                <div class="col_2">
+                  <div class="logo-img"><a href="https://www.kumc.edu/"><img src="https://www.kumc.edu/images/x/logo.png" alt="KU Medical Center" /></a></div>
+                </div>
+                <div class="col_6">
+                  <h2 class="unit-name"><a href="/">KU Medical Center Libraries Catalog</a></h2>
+                  <p class="unit-description"></p>
+                  <div id="crumbtrail">
+                    <p class="small">&nbsp;</p>
+                  </div>
+                </div>
+                <div class="col_4 last" id="search"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="main">
+            <a name="maincontent"></a>
+            <div class="center-content content last">
+              <div id="vf-header" class="noprint">
+                  <div class="pull-right text-right">
+    <div class="control-group">
+                  <span class="logoutOptions hide">
+        <i class="icon-signout"></i><a href="/MyResearch/Logout" class="modal-link" title="Log Out">Log Out</a>
+      </span>
+      <span id="loginOptions">
+        <i class="icon-signin"></i> 
+                  <a href="https://cas.kumc.edu/cas/login?service=http%3A%2F%2Fvoyagercatalog.kumc.edu%2FMyResearch%2FHome">My Account</a>
+              </span>
+        </div>
+              </div>
+                                              </div>
+              <div class="searchbox noprint">
+                <div class="navbar">
+      <form class="form-inline navbar-form block" method="get" action="/Search/Results" name="searchForm" id="searchForm" autocomplete="off">
+      <input class="span5 search-query autocomplete searcher:Solr" id="searchForm_lookfor" type="text" name="lookfor" value=""/>
+              <select id="searchForm_type" name="type" data-native-menu="false">
+                      <option value="AllFields">All Fields</option>
+                      <option value="Title">Title</option>
+                      <option value="Author">Author</option>
+                      <option value="Subject">Subject</option>
+                      <option value="CallNumber">Call Number</option>
+                      <option value="ISN">ISBN/ISSN</option>
+                      <option value="tag">Tag</option>
+                  </select>
+            <button type="submit" class="btn"><i class="icon-search"></i> Find</button>
+              <a href="/Search/Advanced" class="btn btn-link">Advanced</a>
+      
+      
+                  <input type="hidden" name="limit" value="20" /><input type="hidden" name="sort" value="relevance" />    </form>
+    <script type="text/javascript">$("#searchForm_lookfor").focus()</script>
+  </div>
+                              </div>
+          
+                              <ul class="breadcrumb">
+                                                                  </ul>
+                            <div class="main clearfix row-fluid">
+                <h1>An error has occurred</h1>
+<h2>Page not found.</h2>
+			    <div class="vf-footer noprint">
+				  <div class="span12 row-fluid">
+  <hr />
+  <div class="span12 row-fluid offset1">
+    <div class="span3"><p><strong>Search Options</strong></p>
+      <ul>
+        <li style="line-height: 16px;"><a href="/Search/History">Search History</a></li>
+        <li style="line-height: 16px;"><a href="/Search/Advanced">Advanced Search</a></li>
+      </ul>
+    </div>
+    <div class="span3"><p><strong>Find More</strong></p>
+      <ul>
+        <li style="line-height: 16px;"><a href="/Browse/Home">Browse the Catalog</a></li>
+        <li style="line-height: 16px;"><a href="/Alphabrowse/Home">Browse Alphabetically</a></li>
+        <li style="line-height: 16px;"><a href="/Search/Reserves">Course Reserves</a></li>
+        <li style="line-height: 16px;"><a href="/Search/NewItem">New Items</a></li>
+        <li style="line-height: 16px;"><a href="https://illiad.lib.ku.edu/kkp/logon.html">Borrow from Another Library</a></li>		
+      </ul>
+    </div>
+    <div class="span3"><p><strong>Need Help?</strong></p>
+      <ul>
+        <li style="line-height: 16px;"><a href="/Help/Home?topic=search" class="help-link" title="Search Tips">Search Tips</a></li>
+        <li style="line-height: 16px;"><a href="http://library.kumc.edu/search-tips">Using Library Resources</a></li>
+        <li style="line-height: 16px;"><a href="http://library.kumc.edu/ask-a-librarian">Ask a Librarian</a></li>
+      </ul>
+    </div>
+  </div>
+</div>				  			    </div>
+			  </div>
+              <!-- MODAL IN CASE WE NEED ONE -->
+              <div id="modal" class="modal hide fade">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h3></h3>
+                </div>
+                <div class="modal-body">Loading...</div>
+              </div>
+              <script type="text/javascript">
+    //<!--
+    var key = "UA-3160476-10";
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', key]);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+    //-->
+</script>            </div>  <!-- close col_10 center-content content last -->
+          </div>  <!-- close row -->
+        </div>  <!-- close wrapper-for-content -->
+      </div>  <!-- close container -->
+      <footer>
+        <div id="footer-sub">
+          <div class="wrapper-for-content">
+            <div class="row">
+              <div class="sub-left">
+                <div class="contactdetails">
+                  University of Kansas<br />
+                  Medical Center<br />
+                  3901 Rainbow Boulevard<br />
+                  Kansas City, KS 66160<br />
+                  913-588-5000 | 913-588-7963 TDD</div>
+              </div>
+              <div class="sub-right last"><img src="https://www.kumc.edu/images/icons/tagline.png" alt="Educating Healthcare Professionals since 1905" /></div>
+            </div>
+          </div>
+        </div>
+        <div id="footer-bottom" class="clearfix">
+          <div class="wrapper-for-content">
+            <div class="row">
+              <div class="footer-left"><img src="https://www.kumc.edu/images/logos/kumclogo_mobile.png" alt="KU Medical Center" /></div>
+              <div class="footer-right"></div>
+            </div>
+            <div class="row">
+              <div class="col_12 footer-center last">
+                <p><img id="ku_footer_jayhawk" src="https://www.kumc.edu/prebuilt/images/ku_jayhawk.png" width="56" height="50" alt="Jayhawk" /></p>
+                <ul class="navigate">
+                  <li><a href="http://www.kumc.edu/about-us.html" title="About Us">About Us</a></li>
+                  <li><a href="http://www.kumc.edu/events-calendar.html" title="Events Calendar">Events Calendar</a></li>
+                  <li><a href="http://www.kumc.edu/communications.html" title="Communications">Communications</a></li>
+                  <li class="last"><a href="http://www.kumc.edu/social-media.html" title="Social Media">Social Media</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col_12 footer-center last">
+                <ul class="navigate">
+                  <li><a href="http://ioa.ku.edu/">An EO/AA/Title IX Institution</a></li>
+                  <li><a href="http://www.kumc.edu/privacy-statement.html">Privacy Statement</a></li>
+                  <li><a href="http://www.kumc.edu/about-this-site.html">About this Site</a></li>
+                  <li class="last"><a href="http://www.kumc.edu/help.html">Help</a></li>
+                </ul>
+                <p>&copy; 
+                  <script language="JavaScript" type="text/javascript">
+      var d=new Date();
+      yr=d.getFullYear();
+      if (yr!=1863)
+      document.write(yr);
+      </script> 
+                  The University of Kansas Medical Center<br />
+                  <span class="small legal">The University of Kansas Medical Center prohibits discrimination on the basis of race, color, ethnicity, religion, sex, national origin, age, ancestry, disability, status as a veteran, sexual orientation, marital status, parental status, gender identity, gender expression and genetic information in the University's programs and activities. The following person has been designated to handle inquiries regarding the non-discrimination policies: Executive Director of the Office of Institutional Opportunity and Access, <a href="mailto:ioa@ku.edu">IOA@ku.edu</a>, 1054 Wescoe, 3901 Rainbow Blvd,. K.C., KS 66160, 913-588-5048.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>      
+    </div>  <!-- close wrapper -->
+  </body>
+</html>

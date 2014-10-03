@@ -1,0 +1,14 @@
+/**
+ *     Sort By Widget
+ */
+  
+  div.SS_EBooksSortByWidget
+  {
+	 float: right;
+	 width: 25%;
+  }
+
+  div.SS_SearchResultsCount
+  {
+    float: left;
+  }
