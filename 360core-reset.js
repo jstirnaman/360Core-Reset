@@ -23,7 +23,7 @@ holdingsdata.each(function(){
   jl = $j(this).find('a.SS_JournalHyperLink')
   prl = $j(this).find('span.SS_custom_all_titles_public_note.SS_custom_external_link a')
   //prl = $j(prl).filter(function(i, a){ $j(a).attr('href') })
-  prl_href = prl.attr('href') == problemReportForm ? prl.attr('href') + '?url=' + jl.attr('href') : prl.attr('href')
+  prl_href = prl.attr('href') == problemReportForm ? prl.attr('href') + '?url=' + encodeURIComponent(jl.attr('href')) : prl.attr('href')
   prl.attr('href', prl_href)
 })
 
