@@ -15,16 +15,32 @@ var problemReportForm = 'http://library.kumc.edu/e-journal-problem-report-form.x
 window.$j = jQuery.noConflict();
 
 $j(document).ready(function() { // Wait until the original page loads
-
-holdingsdata = $j('.SS_Holding td.SS_HoldingData')
+// Get journal citation info and create the new link
+holdings = $j('.SS_Holding')
+holdings.each(function(){
+  var citationParams = ''
+  var citationElems = {
+    journal : $j(this).find('.SS_JournalTitle').find('*').html(),
+    issn : $j(this).find('.SS_JournalISSN').html()
+  }
+  for (var el in citationElems) {
+    if ( typeof citationElems[el] != 'undefined') {
+      citationParams += "&" + el + "=" + encodeURIComponent(citationElems[el].trim())
+    }
+  }  
+  setProblemReportLink(this, citationParams)  
+})
 
 // Append the journal holding URL as a ?url= param to the report form.
+function setProblemReportLink(elements, urlParams){
+holdingsdata = $j(elements).find('td.SS_HoldingData')
 holdingsdata.each(function(){
   jl = $j(this).find('a.SS_JournalHyperLink')
   prl = $j(this).find('span.SS_custom_all_titles_public_note.SS_custom_external_link a')
-  //prl = $j(prl).filter(function(i, a){ $j(a).attr('href') })
-  prl_href = prl.attr('href') == problemReportForm ? prl.attr('href') + '?url=' + encodeURIComponent(jl.attr('href')) : prl.attr('href')
-  prl.attr('href', prl_href)
+  if(prl.attr('href') == problemReportForm) {
+  prl.attr('href', prl.attr('href') + '?url=' + encodeURI(jl.attr('href')) + urlParams)
+  }
 })
+}
 
 })
