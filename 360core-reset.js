@@ -38,7 +38,10 @@ holdingsdata.each(function(){
   jl = $j(this).find('a.SS_JournalHyperLink')
   prl = $j(this).find('span.SS_custom_all_titles_public_note.SS_custom_external_link a')
   if(prl.attr('href') == problemReportForm) {
-  prl.attr('href', prl.attr('href') + '?url=' + encodeURI(jl.attr('href')) + urlParams)
+  prl.attr('href', prl.attr('href') + '?url=' + encodeURIComponent(jl.attr('href')) 
+    + '?notes=Provider:%20' + encodeURIComponent(jl.html())
+    + urlParams
+    )
   }
 })
 }
