@@ -1,6 +1,20 @@
 /* Styles to improve Serials Solutions E-Journal Portal */
-.SS_HoldingData .SS_custom_all_titles_public_note .SS_custom_external_link
+.SS_ResultsAtoZLinks a
   {
-    font-size: 90%;
-    font-weight: normal;
+    font-size: 110%;
+    margin-left: 2px;
+    margin-right: 2px;
   }
+.SS_HoldingData a.SS_JournalHyperLink
+  {
+    font-weight: bold;
+    line-height: 19px;
+  }
+
+.SS_HoldingData .SS_custom_all_titles_public_note.SS_custom_external_link
+  {
+    font-size: normal;
+    font-weight: normal;
+    margin-left: 20px;
+  }
+
