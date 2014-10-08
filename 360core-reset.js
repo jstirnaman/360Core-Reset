@@ -42,8 +42,12 @@ holdingsdata.each(function(){
     + '?notes=Provider:%20' + encodeURIComponent(jl.html())
     + urlParams
     )
+  prl.html('Report a problem')
   }
 })
+
+// Replace label for Terms of Use link.
+$j('.SS_EJPTermsOfUse a').html('Terms of Use')
 }
 
 })
