@@ -35,12 +35,14 @@ holdings.each(function(){
 function setProblemReportLink(elements, urlParams){
 holdingsdata = $j(elements).find('td.SS_HoldingData')
 holdingsdata.each(function(){
-  jl = $j(this).find('a.SS_JournalHyperLink')
   prl = $j(this).find('span.SS_custom_all_titles_public_note.SS_custom_external_link a')
   if(prl.attr('href') == problemReportForm) {
-  prl.attr('href', prl.attr('href') + '?url=' + encodeURI(jl.attr('href')) 
-    + '?notes=Provider:%20' + encodeURIComponent(jl.html())
-    + urlParams
+    jl = $j(this).find('a.SS_JournalHyperLink')
+    var journalurl = jl.get(0).href
+    prl.attr('href', prl.attr('href') + '?url=' + encodeURIComponent(journalurl)
+      + '&notes=Provider: ' + encodeURIComponent(jl.html())
+      + '%0AEJF%20Search%20Results%20URL: ' + encodeURIComponent(document.URL) 
+      + urlParams
     )
   prl.html('Report a problem')
   }
