@@ -5,6 +5,10 @@
     margin-left: 2px;
     margin-right: 2px;
   }
+.SS_Holding table
+  {
+    margin-bottom: 0px;
+  }
 .SS_HoldingData a.SS_JournalHyperLink
   {
     font-weight: bold;
