@@ -5,9 +5,9 @@
     margin-left: 2px;
     margin-right: 2px;
   }
-.SS_Holding table
+.SS_Holding
   {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
 .SS_HoldingData a.SS_JournalHyperLink
   {
@@ -22,3 +22,11 @@
     margin-left: 20px;
   }
 
+.SS_HoldingData .SS_JournalCoverageDates
+  {
+    margin-right: 20px;
+  }
+
+td.SS_HoldingData {
+    min-width: 200px;
+}
